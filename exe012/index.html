@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/imgP.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/imgM.jpg" type="image/jpg">
+        <img src="imagens/imgG.jpg" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!--MODO 1 : <audio src="midias/keeponmovin.mp3" controls autoplay></audio>--> <!--MP3 WAV OGG-->
+    <!--MODO 2:-->
+    <audio preload="metadata" controls loop> <!--controls cria o controle / loop reinicia o audio-->
+        <source src="midias/keeponmovin.mp3" type="audio/mpeg">
+        <!--<source src="midias/keeponmovin.ogg" type="audio/ogg">   ELE TENTA OUTRO TIPO CASO NAO FUNCIONE O DE CIMA-->
+        <!--<source src="midias/keeponmovin.wav" type="audio/wav">-->
+        <!--<p>Infelizmente seu navegador não consegue reproduzir áudio. <ahref = "midias/keeponmovin.mp3"> Clique aqui para fazer download do arquivo MP3</p>-->
+    </audio>
+</body>
+</html>
