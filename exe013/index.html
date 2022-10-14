@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+
+    <!--MODO 1: <video src="videos/meuvideo.mp4" width="300" controls></video> -->  <!--WIDTH DIMENSAO DO VIDEO-->
+    <!--MODO 2:-->
+    <video width="300" controls poster="imagens/coffe.jfif"> <!--poster para POSTER do video-->
+        <source src="videos/meuvideo.mp4" type="video/mp4">
+        <!--<source src="videos/meuvideo.ogv" type="audio/ogv">   ELE TENTA OUTRO TIPO CASO NAO FUNCIONE O DE CIMA-->
+        <!--<source src="videos/meuvideo.m4v" type="audio/m4v">-->
+        <!--<p>Infelizmente seu navegador não consegue reproduzir áudio. <ahref = "midias/keeponmovin.mp3"> Clique aqui para fazer download do arquivo MP3</p>-->
+    </video>
+</body>
+</html>
