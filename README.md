@@ -4,6 +4,7 @@
 <h2>Estudo de HTML, CSS e Java Script.</h2>
 <h3>Usado somente para fins de estudo.</h3>
 
+<h3>HTML5</h3>
 <p>ex001 - Meu primeiro exercício;</p>
 <p>ex002 - Parágrafos;</p>
 <p>ex003 - Teste com Imagens;</p>
