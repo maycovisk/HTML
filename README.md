@@ -15,5 +15,6 @@
 <p>exe008 - Formatação de Textos;</p>
 <p>exe009 - Outras formatações;</p>
 <p>exe010 - Trabalhando com Links - Nova página;</p>
-<p>exe011 - Mídias em HTML5 - Imagens dinâmicas;</p>
+<p>exe011 - Mídias em HTML5 - Imagem dinâmica;</p>
+<p>exe012 - Mídias em HTML5 - Reproduzindo Áudios;</p>
 
