@@ -22,4 +22,6 @@
 <p>exe015 - Estilo Inline;</p>
 <p>exe016 - Estilo Locais / Internos;</p>
 <p>exe017 - Estilo Externos;</p>
-<p>exe018 - Cores em CSS;</p>
+<p>exe018 - cor01 - Cores em CSS;</p>
+<p>exe018 - cor02 - Gradiente em CSS;</p>
+<p>exe018 - cor03 - Site de Exemplo;</p>
