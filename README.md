@@ -22,3 +22,4 @@
 <p>exe015 - Estilo Inline;</p>
 <p>exe016 - Estilo Locais / Internos;</p>
 <p>exe017 - Estilo Externos;</p>
+<p>exe018 - Cores em CSS;</p>
