@@ -20,4 +20,5 @@
 <p>exe013 - Mídias em HTML5 - Vídeos localmente;</p>
 <p>exe014 - Mídias em HTML5 - Inserindo vídeos do YouTube;</p>
 <p>exe015 - Estilo Inline;</p>
-<p>exe015 - Estilo Locais / Internos;</p>
+<p>exe016 - Estilo Locais / Internos;</p>
+<p>exe017 - Estilo Externos;</p>
