@@ -25,3 +25,4 @@
 <p>exe018 - cor01 - Cores em CSS;</p>
 <p>exe018 - cor02 - Gradiente em CSS;</p>
 <p>exe018 - cor03 - Site de Exemplo;</p>
+<p>exe019 - Fontes em CSS;</p>
