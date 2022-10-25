@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+
+            font-size: 1em;
+        /* MEDITAS ABSOLUTAS =  cm, mm, in, px, pt, pc ||| MEDIDAS RELATIVAS =  em, ex, rem, vw, vh, %
+
+        16px geralmente é um 1em;
+        */
+            font-weight: bold; /*pode ser numero de 100-900 quando tiver o peso disponivel*/
+        /* lighter normal bold bolder */
+
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1{
+            /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            font: italic bolder 3em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Substitui todos os font, seguindo a ordem abaixo*/
+            /*shorthand font
+            font-style -> font-weight -> font-size -> font-family */
+
+            
+        }
+  
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur quod, delectus, unde minus dolore quam autem consequatur amet esse iste repellendus quasi natus assumenda, eos ab excepturi nemo atque.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea neque nobis sit, vel facilis optio nulla consectetur veniam commodi, mollitia doloribus error asperiores expedita in eum, sapiente enim. Molestias, voluptates!</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat adipisci enim eligendi distinctio atque cum, ipsum molestias quod minima blanditiis nisi sapiente cumque, deserunt natus dicta quia neque quibusdam.</p>
+</body>
+</html>
