@@ -28,3 +28,4 @@
 <p>exe019 - fonte01 - Fontes em CSS;</p>
 <p>exe019 - fonte02 - Fontes com Google Fonts;</p>
 <p>exe019 - fonte03 - Fontes Externas;</p>
+<p>exe019 - fonte04 - Alinhamentos;</p>
