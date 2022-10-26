@@ -29,3 +29,4 @@
 <p>exe019 - fonte02 - Fontes com Google Fonts;</p>
 <p>exe019 - fonte03 - Fontes Externas;</p>
 <p>exe019 - fonte04 - Alinhamentos;</p>
+<p>exe020 - Seletores Personalizados;</p>
