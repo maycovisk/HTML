@@ -31,4 +31,4 @@
 <p>exe019 - fonte04 - Alinhamentos;</p>
 <p>exe020 - Seletores Personalizados;</p>
 <p>exe021 - Pseudo Classe e Pseudo Elementos;</p>
-
+<p>exe022 - Modelo de Caixas;</p>
