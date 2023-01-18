@@ -1,7 +1,7 @@
-# HTML 5, CSS 3 e JAVA SCRIPT
+# HTML 5, CSS 3
 <hr>
 
-<h2>Estudo de HTML, CSS e Java Script.</h2>
+<h2>Estudo de HTML e CSS.</h2>
 <h3>Usado somente para fins de estudo.</h3>
 
 <h3>HTML5</h3>
