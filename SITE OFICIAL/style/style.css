@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*---- IMPORTAR FONTE ROBOTO E UBUNTO----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,600&family=Ubuntu:wght@400;500&display=swap');
+
+:root{
+    /*--cor0:#00804b;*/
+    --cor0:#b9a639;
+    --cor1:#fff;
+    --cor2:#111;
+    --cor3:#222;
+    --cor4:#ccc;
+    --cor5:#333;
+
+    --fonte-padrao: sans-serif;
+    --fonte-destaque: 'Roboto', sans-serif;
+    --fonte-ubuntu: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra Menu */
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgb(21, 21, 21);
+   
+}
+
+nav > a{
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+    display: inline;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+/*TITULOS*/
+h1{
+    font-family: var(--fonte-ubuntu);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+h1::after{
+    position: absolute;
+    bottom:-12px;
+    left: 50%;
+    font-size: 20px;
+    background: var(--cor1);
+    color: var(--cor0);
+    padding: 5px;
+    transform: translateX(-50%);
+}
+h2{
+    font-family: var(--fonte-ubuntu);
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/*Imagens*/
+.imginicio{
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    border-color: var(--cor0);
+    border-width: medium;
+    border-style: solid;
+}
+
+/*Texto*/
+.loreminicio{
+    color: var(--cor2);
+    font-family: var(--fonte-ubuntu);
+    font-size: 1.2em;
+    max-width: 80%;
+    margin: 10px auto 20px auto;
+    padding: 20px 10px
+}
+.loreminicio1{
+    color: var(--cor2);
+    font-family: var(--fonte-ubuntu);
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 80%;
+    margin: 10px auto 20px auto;
+    padding: 20px 10px
+}
