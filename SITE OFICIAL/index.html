@@ -3,63 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <title>AJM Soluções em Tecnologia da Informação</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <a href="index.html">Início</a>
-            <a href="equipe.html">Equipe</a>
-            <a href="habilidades.html">Habilidades</a>
-            <a href="clientes.html">Clientes</a>
-            <a href="contato.html">Contato</a>
-        </nav>
-    </header>
-    <div class="content">   
-        <h1>Bem vindo ao AJM</h1>
-        
-        <picture>
-            <img src="img/time.jpg" alt="Imagem de exemplo" class="imginicio">
-        </picture>
-        
-        <p class="loreminicio">
-            AJM Soluções em Tecnologia da Informação
-            Bem-vindo à AJM, sua parceira estratégica para soluções inovadoras em Tecnologia da Informação. Combinamos expertise técnica, criatividade e um compromisso inabalável com a qualidade para oferecer serviços excepcionais em suporte e consultoria de TI.
-        </p>
-
-        <h2>Nossos Serviços:</h2>
-        <ul class="loreminicio">
-            <li>Suporte Técnico e Manutenção: Garantimos que sua infraestrutura de TI esteja sempre funcionando de maneira otimizada, com manutenções preventivas e suporte ágil.</li>
-            <li>Consultoria em Infraestrutura de TI: Oferecemos consultoria especializada para desenvolver e implementar soluções de TI que se alinham perfeitamente com os objetivos do seu negócio.</li>
-            <li>Soluções de Segurança Cibernética: Proteja seus dados e sistemas com nossas soluções avançadas em segurança da informação.</li>
-            <li>Cloud Computing: Facilitamos sua transição para a nuvem, proporcionando flexibilidade, escalabilidade e eficiência.</li>
-            <li>Desenvolvimento de Software Personalizado: Criamos soluções de software sob medida, que se adaptam às necessidades específicas da sua empresa.</li>    
-        </ul>    
-        
-        <h2>Por que Escolher a AJM?</h2>
-
-        <ul class="loreminicio">
-            <li>Foco no Cliente: Nosso objetivo é superar suas expectativas, oferecendo soluções personalizadas e um atendimento excepcional.</li>
-            <li>Equipe Qualificada: Contamos com profissionais altamente treinados e atualizados com as últimas tendências tecnológicas.</li>
-            <li>Compromisso com a Excelência: Nosso trabalho é pautado pela busca contínua de qualidade e inovação.</li>
-        </ul>              
-
-        <P class="loreminicio">
-            Casos de Sucesso
-            Nos orgulhamos de nossas parcerias de sucesso. Trabalhamos com uma variedade de clientes, proporcionando soluções que geram resultados reais e positivos. Conheça nossos estudos de caso e descubra como podemos ajudar sua empresa a alcançar novos patamares.
-
-            Entre em Contato
-            Estamos aqui para ajudar você a navegar no mundo da tecnologia com facilidade e confiança. Entre em contato conosco para saber mais sobre nossos serviços e como podemos contribuir para o sucesso do seu negócio.
-        </P>   
-        <p class="loreminicio1"> AJM - Inovação e Tecnologia a Serviço do seu Negócio.</p> 
+    <!--Barra-->
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
     </div>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">AJM Soluções em <span>Tecnologia</span></a></div>
+            <ul class="menu"> 
+                <li><a href="index.html">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <!--Home início-->
+    <header>
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Olá, bem-vindo à</div>
+                    <div class="text-2">AJM Soluções em Tecnologia da Informação,</div>
+                    <div class="text-3">somos </div>
+                    <div class="text-3"><span class="typing"></span></div>
+                    <a href="#contact">Contrata-nos</a>
+                </div>
+            </div>
+        </section>
+    </header>
+  
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">AJM</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="img/time.jpg" alt="Imagem de exemplo">
+                </div>
+                
+                <div class="column right">
+                    <div class="text">Somos a AJM Soluções em Tecnologia da Informação, somos <span class="typing-2"></span></div>
+                    <p>
+                        AJM Soluções em Tecnologia da Informação
+                        Bem-vindo à AJM, sua parceira estratégica para soluções inovadoras em Tecnologia da Informação. Combinamos expertise técnica, criatividade e um compromisso inabalável com a qualidade para oferecer serviços excepcionais em suporte e consultoria de TI.
+                    </p>
+                </div>
+                <h2>Nossos Serviços:</h2>
+                <ul>
+                    <li>Suporte Técnico e Manutenção: Garantimos que sua infraestrutura de TI esteja sempre funcionando de maneira otimizada, com manutenções preventivas e suporte ágil.</li>
+                    <li>Consultoria em Infraestrutura de TI: Oferecemos consultoria especializada para desenvolver e implementar soluções de TI que se alinham perfeitamente com os objetivos do seu negócio.</li>
+                    <li>Soluções de Segurança Cibernética: Proteja seus dados e sistemas com nossas soluções avançadas em segurança da informação.</li>
+                    <li>Cloud Computing: Facilitamos sua transição para a nuvem, proporcionando flexibilidade, escalabilidade e eficiência.</li>
+                    <li>Desenvolvimento de Software Personalizado: Criamos soluções de software sob medida, que se adaptam às necessidades específicas da sua empresa.</li>    
+                </ul>    
+                
+                <h2>Por que Escolher a AJM?</h2>
+        
+                <ul>
+                    <li>Foco no Cliente: Nosso objetivo é superar suas expectativas, oferecendo soluções personalizadas e um atendimento excepcional.</li>
+                    <li>Equipe Qualificada: Contamos com profissionais altamente treinados e atualizados com as últimas tendências tecnológicas.</li>
+                    <li>Compromisso com a Excelência: Nosso trabalho é pautado pela busca contínua de qualidade e inovação.</li>
+                </ul>              
+        
+                <P>
+                    Casos de Sucesso
+                    Nos orgulhamos de nossas parcerias de sucesso. Trabalhamos com uma variedade de clientes, proporcionando soluções que geram resultados reais e positivos. Conheça nossos estudos de caso e descubra como podemos ajudar sua empresa a alcançar novos patamares.
+        
+                    Entre em Contato
+                    Estamos aqui para ajudar você a navegar no mundo da tecnologia com facilidade e confiança. Entre em contato conosco para saber mais sobre nossos serviços e como podemos contribuir para o sucesso do seu negócio.
+                </P>   
+                <p> AJM - Inovação e Tecnologia a Serviço do seu Negócio.</p> 
+            </div>
+        </div>
+    </section>
+    
 
+    <!--Sessão Footer-->
     <footer>
-        <p>
-            Desenvolvido por IFSP
-        </p>
+        <span>Criado por <a href="https://www.linkedin.com/in/mayconlimac" target="_black">Maycon</a> e <a href="#" target="_black">Andrew</a>  | Todos os direitos reservados 2023</span>
     </footer>
+
+    <!-- IMPORTAR ICONES DO SITE IONICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </body>
 </html>
 
