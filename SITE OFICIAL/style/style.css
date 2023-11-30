@@ -4,7 +4,7 @@
 
 :root{
     /*--cor0:#00804b;*/
-    --cor0:#b9a639;
+    --cor0:#0b9216;
     --cor1:#fff;
     --cor2:#111;
     --cor3:#222;
@@ -23,7 +23,7 @@
     text-decoration: none;
 }
 html{
-    scroll-behavior: smoth;
+    scroll-behavior: smoth; /*smooth para uma rolagem mais lenta*/
 }
 .max-width{
     max-width: 1300px;
@@ -176,7 +176,8 @@ html{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right li{
+.about .about-content .right li,
+.about .about-content .right ol{
     display: inline-block;
     background: var(--cor0);
     color: var(--cor1);
@@ -249,7 +250,8 @@ section .title::after{
 
 /*teams*/
 .teams .title::after{
-    content: "Especializada";
+    background: var(--cor2);
+    content: "Time";
 }
 .teams .carousel .card{
     background: var(--cor3);
@@ -384,6 +386,161 @@ section .title::after{
     width: 90%;
 }
 
+/*..Sessã..Serviços..*/
+.services, .teams{
+    background: var(--cor2);
+    color: var(--cor1);
+}
+.services .title::before,
+.teams .title::before{
+    background: var(--cor1);
+}
+.services .title::after{
+    background: var(--cor2);
+    content: "Que oferecemos";
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: var(--cor3);
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: var(--cor0);
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card ion-icon{
+    font-size: 70px;
+    color: var(--cor0);
+}
+.services .serv-content .card:hover ion-icon{
+    color: var(--cor1);
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.table-container table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 3px solid var(--cor0);
+    padding: 8px;
+    text-align: center;
+}
+
+.table-container th {
+    background-color: var(--cor1); 
+    color: var(--cor0);
+}
+
+/*..Sessão..Contato..*/
+.contact .title::after{
+    content: "Fale conosco";
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content{
+    align-items: flex-start;
+}
+.contact .contact-content .left p{
+    text-align: justify;  
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .row .info .sub-title{
+    color: var(--cor5);
+}
+.contact .contact-content .row ion-icon{
+    font-size: 25px;
+    color: var(--cor0);
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .fields,
+.contact .right form .field .field{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.contact .right form .field input,
+.contact .right form  .field .textarea textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--cor4);
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: var(--fonte-destaque);
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .email{
+    margin-left: 10px;
+}
+.contact .right form .textarea{
+    width: 100%;
+    height: 80px;
+}
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    width: 170px;
+    height: 47px;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--cor0);
+    background: var(--cor0);
+    color: var(--cor1);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+    color: var(--cor0);
+    background: none;
+}
+
 
 /*..Sessão..footer..*/
 footer{
@@ -424,11 +581,6 @@ footer span a:hover{
 .owl-dot:hover{
     background: var(--cor0)!important;
 }
-
-
-
-
-
 
 
 
