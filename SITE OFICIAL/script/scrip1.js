@@ -14,21 +14,6 @@ $(document).ready(function(){
         $('html').animate({scrollTop: 0});
     });
 
-    var typed1 = new Typed(".typing", {
-        strings: ["Assessoria em Tecnologia", "Suporte", "Gestão IT", "Consultoria"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed2 = new Typed(".typing-2", {
-        strings: ["Consultoria", "Suporte", "Desenvolvimento", "Analista"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
