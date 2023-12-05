@@ -200,6 +200,11 @@ html{
     border-radius: 6px;
 }
 
+.about .about-content h2{
+    margin: 20px auto 10px auto;
+    padding-left: 70px;
+}
+
 
 
 /*..Todos..os..codigos..similares..*/
@@ -316,6 +321,7 @@ section .title::after{
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
+    font-family: var(--fonte-padrao);
 }
 .skills .skills-content .left .text{
     font-size: 25px;
