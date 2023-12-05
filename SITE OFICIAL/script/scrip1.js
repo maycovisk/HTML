@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
+$(document).ready(function(){ /**Executa o script após o carregamento completo da página.**/
+    $(window).scroll(function(){/**Altera a classe da barra de navegação e do botão de rolagem para cima com base na posição de rolagem da página.**/
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
@@ -11,15 +11,15 @@ $(document).ready(function(){
         }
     });
     
-    $('.scroll-up-btn').click(function(){
+    $('.scroll-up-btn').click(function(){ /**Anima a rolagem da página de volta ao topo ao clicar no botão de rolagem para cima.**/
         $('html').animate({scrollTop: 0});
     });
 
-    $('.menu-btn').click(function(){
+    $('.menu-btn').click(function(){ /**Alterna a visibilidade do menu e o ícone do botão do menu ao clicar.**/
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-    $('.carousel').owlCarousel({
+    $('.carousel').owlCarousel({ /** Inicializa um carrossel responsivo de conteúdo com várias configurações de visualização e interação.**/
         margin:20,
         loop:true,
         autoplayTimeOut:2000,
